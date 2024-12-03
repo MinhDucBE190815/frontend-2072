@@ -1,10 +1,215 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "email": "test@example.com",
-        "password": "123456"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "123456"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_id": 101,
+      "order_date": "2024-11-30T10:30:00",
+      "status": "Processing",
+      "total_amount": 150.75,
+      "shipping_address": "123 Main Street, District 1, Ho Chi Minh City"
+    },
+    {
+      "id": "2",
+      "customer_id": 102,
+      "order_date": "2024-11-29T14:00:00",
+      "status": "Processing",
+      "total_amount": 299.99,
+      "shipping_address": "456 Le Duan Street, Danang City"
+    },
+    {
+      "id": "3",
+      "customer_id": 103,
+      "order_date": "2024-11-28T09:45:00",
+      "status": "Processing",
+      "total_amount": 0,
+      "shipping_address": "789 Tran Phu Street, Hanoi"
+    },
+    {
+      "id": "4",
+      "customer_id": 104,
+      "order_date": "2024-11-27T16:20:00",
+      "status": "Shipped",
+      "total_amount": 450,
+      "shipping_address": "321 Nguyen Hue Boulevard, Ho Chi Minh City"
+    },
+    {
+      "id": "5",
+      "customer_id": 105,
+      "order_date": "2024-11-26T11:15:00",
+      "status": "Processing",
+      "total_amount": 120.5,
+      "shipping_address": "654 Bach Dang Street, Hue City"
+    }
+  ],
+  "clients": [
+    {
+      "id": "101",
+      "name": "Nguyen Van A",
+      "email": "nguyenvana@example.com",
+      "phone": "0987654321",
+      "address": "123 Nguyen Trai, District 1, Ho Chi Minh City"
+    },
+    {
+      "id": "102",
+      "name": "Le Thi B",
+      "email": "lethib@example.com",
+      "phone": "0976543210",
+      "address": "456 Le Duan, Danang City"
+    },
+    {
+      "id": "103",
+      "name": "Pham Van C",
+      "email": "phamvanc@example.com",
+      "phone": "0965432109",
+      "address": "789 Hai Ba Trung, Hanoi"
+    },
+    {
+      "id": "104",
+      "name": "Tran Thi D",
+      "email": "tranthid@example.com",
+      "phone": "0954321098",
+      "address": "321 Le Loi, Hue City"
+    },
+    {
+      "id": "105",
+      "name": "Hoang Van E",
+      "email": "hoangvane@example.com",
+      "phone": "0943210987",
+      "address": "654 Bach Dang, Da Lat City"
+    },
+    {
+      "id": "106",
+      "name": "Vu Thi F",
+      "email": "vuthif@example.com",
+      "phone": "0932109876",
+      "address": "987 Tran Hung Dao, Hai Phong"
+    },
+    {
+      "id": "107",
+      "name": "Dang Van G",
+      "email": "dangvang@example.com",
+      "phone": "0921098765",
+      "address": "159 Vo Nguyen Giap, Da Nang"
+    },
+    {
+      "id": "108",
+      "name": "Do Thi H",
+      "email": "dothih@example.com",
+      "phone": "0910987654",
+      "address": "753 Ly Thuong Kiet, Quang Ngai"
+    },
+    {
+      "id": "109",
+      "name": "Ngo Van I",
+      "email": "ngovani@example.com",
+      "phone": "0909876543",
+      "address": "357 Phan Chu Trinh, Nha Trang"
+    },
+    {
+      "id": "110",
+      "name": "Pham Thi J",
+      "email": "phamthij@example.com",
+      "phone": "0898765432",
+      "address": "951 Hoang Hoa Tham, Can Tho"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 15000000,
+      "quantity": 5,
+      "description": "Máy tính xách tay phù hợp công việc văn phòng và học tập.",
+      "category": "Electronics",
+      "inStock": true,
+      "image": "https://picsum.photos/id/1/300/300"
+    },
+    {
+      "id": "2",
+      "name": "Phone",
+      "price": 8000000,
+      "quantity": 12,
+      "description": "Điện thoại thông minh với nhiều tính năng tiện ích.",
+      "category": "Electronics",
+      "inStock": true,
+      "image": "https://picsum.photos/id/2/300/300"
+    },
+    {
+      "id": "3",
+      "name": "Headphone",
+      "price": 2000000,
+      "quantity": 0,
+      "description": "Tai nghe chất lượng cao với âm thanh sống động.",
+      "category": "Accessories",
+      "inStock": false,
+      "image": "https://picsum.photos/id/3/300/300"
+    },
+    {
+      "id": "4",
+      "name": "Tablet",
+      "price": 12000000,
+      "quantity": 8,
+      "description": "Máy tính bảng với màn hình sắc nét, phù hợp cho giải trí.",
+      "category": "Electronics",
+      "inStock": true,
+      "image": "https://picsum.photos/id/4/300/300"
+    },
+    {
+      "id": "5",
+      "name": "Camera",
+      "price": 18000000,
+      "quantity": 4,
+      "description": "Máy ảnh chuyên nghiệp dành cho nhiếp ảnh gia.",
+      "category": "Photography",
+      "inStock": true,
+      "image": "https://picsum.photos/id/5/300/300"
+    },
+    {
+      "id": "6",
+      "name": "Smartwatch",
+      "price": 5000000,
+      "quantity": 15,
+      "description": "Đồng hồ thông minh hỗ trợ sức khỏe và kết nối điện thoại.",
+      "category": "Accessories",
+      "inStock": true,
+      "image": "https://picsum.photos/id/6/300/300"
+    },
+    {
+      "id": "7",
+      "name": "Keyboard",
+      "price": 1000000,
+      "quantity": 10,
+      "description": "Bàn phím cơ với đèn LED RGB, thích hợp cho game thủ.",
+      "category": "Accessories",
+      "inStock": true,
+      "image": "https://picsum.photos/id/7/300/300"
+    },
+    {
+      "id": "8",
+      "name": "Speaker",
+      "price": 3000000,
+      "quantity": 3,
+      "description": "Loa bluetooth âm thanh chất lượng cao, phù hợp mọi không gian.",
+      "category": "Audio",
+      "inStock": true,
+      "image": "https://picsum.photos/id/8/300/300"
+    },
+    {
+      "id": "9",
+      "name": "Monitor",
+      "price": 7000000,
+      "quantity": 6,
+      "description": "Màn hình máy tính 24 inch, hỗ trợ độ phân giải Full HD.",
+      "category": "Electronics",
+      "inStock": true,
+      "image": "https://picsum.photos/id/9/300/300"
+    }
+  ]
+}

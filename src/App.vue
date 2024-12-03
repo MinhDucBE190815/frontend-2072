@@ -13,7 +13,7 @@
           <router-link to="/orders" class="list-group-item list-group-item-action">
             Quản Lý Đơn Hàng
           </router-link>
-          <router-link to="/customers" class="list-group-item list-group-item-action">
+          <router-link to="/clients" class="list-group-item list-group-item-action">
             Quản Lý Khách Hàng
           </router-link>
           <router-link to="/statistics" class="list-group-item list-group-item-action">
